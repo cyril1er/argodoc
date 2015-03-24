@@ -15,11 +15,11 @@ Web UI module for the ARGO Framework :
 
 Installation - the $HOME_LAVOISIER is the directory where do you install the service
 * cd $HOME_LAVOISIER
-* wget https://github.com/ARGOeu/argo-ui/archive/master.zip
+* wget https://github.com/ARGOeu/argo-egi-web/archive/master.zip
 * unzip master.zip
 * mkdir certificate
 * put your certificate in p12 format in this directory
-* cd $HOME_LAVOISIER/argo-ui-master/etc
+* cd $HOME_LAVOISIER/argo-egi-web/etc
 * vi lavoisier-hidden.properties
 * complete certificate.password and certificate.password
 * eventually modify the cache.baseDirectory - if you want to put it elsewhere
